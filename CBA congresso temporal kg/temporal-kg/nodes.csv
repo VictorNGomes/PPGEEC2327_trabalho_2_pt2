@@ -1,0 +1,315 @@
+abstract,country,email,en_abstract,id,name,source_file,title,type
+,,,,year:1998,1998,,,Year
+,,,,year:2000,2000,,,Year
+,,,,year:2002,2002,,,Year
+,,,,year:2004,2004,,,Year
+,,,A study about how to design a control law that not only keep following a reference attitude but also maintains attitude decoupling due to the vehicle manoeuvres has been performed. It has been noticed that in order to achieve this objective it is necessary to use a linear coupled model to design the control law instead of the usual linear uncoupled model used to design the tracking control law. After the design of the new control law has been finished it has also been assessed against the traditional control law in order to guarantee that it works as desired. A comparison of the system stability working with both control laws has also been performed. By the end of the work some suggestions about how to implement this control law has also been studied.,article:1998_001,,1998/001.pdf,A Study About a Control Law That Tracks a Reference Attitude and Maintains Attitude Decoupling,Article
+,,oliva@ase2.iae.cta.br,,author:a_p_oliva:53fd7b7b,A. P. Oliva,,,Author
+,,,,author:w_c_leite_filho:e05a18d8,W. C. Leite Filho,,,Author
+,Brazil,,,affiliation:instituto_de_aeronautica_e_espaco_iae_divisao_de_sistemas_espaciais:6498d61e,Instituto de Aeronáutica e Espaço (IAE) - Divisão de Sistemas Espaciais,,,Affiliation
+,,,,theme:pitch_attitude_tracking_control_law:e3a372a8,Pitch Attitude Tracking Control Law,,,Theme
+,,,,theme:attitude_decoupling:739d65fe,Attitude Decoupling,,,Theme
+,,,,theme:need_for_coupled_vehicle_model_to_suppress_maneuver_coupling:bd5af8d2,Need for Coupled Vehicle Model to Suppress Maneuver Coupling,,,Theme
+,,,,theme:mclean_linear_vehicle_models:4e9d5be1,McLean Linear Vehicle Models,,,Theme
+,,,,keyword:attitude_control:1dab2394,Attitude Control,,,Keyword
+,,,,keyword:decoupling:a8969c60,Decoupling,,,Keyword
+,,,,keyword:control_algorithm:3d77f34c,Control Algorithm,,,Keyword
+"Este trabalho trata do projeto de sistemas de controle com a metodologia de escalonamento de ganhos para modelos lineares com parâmetros variando no tempo. Controladores lineares invariantes no tempo são projetados para valores fixos de parâmetro e posteriormente interpolados resultando em um compensador global para a planta. Para o projeto dos controladores a parâmetro fixo é empregada a técnica TFL/LTR (Target Feedback Loop/Loop Transfer Recovery), com duas estruturas de controladores distintas. Uma é a tradicional estrutura LQG/LTR (Linear Quadratic Gaussian/Loop Transfer Recovery). A outra não possui nome específico. O uso desta última no âmbito do projeto com a metodologia de escalonamento de ganhos é original. A metodologia discutida é aplicada ao controle de atitude de um veículo lançador de satélites.",,,"This contribution presents a design methodology for linear gain-scheduled control systems with scheduling on time- varying parameters. Basic idea of the methodology is the design of fixed-parameter controllers which are then scheduled on-line, resulting in a global controller for the system. Fixed-parameter controllers are designed using the TFL/LTR (Target Feedback Loop / Loop Transfer Recovery) technique. Two different controller structures are considered. One of them is the traditional LQG/LTR (Linear Quadratic Gaussian / Loop Transfer Recovery) structure. The other one has no specific name. The use of the later in the context of gain-scheduling is being proposed for the first time. The design methodology is applied to the attitude control of a satellite launching vehicle.",article:1998_002,,1998/002.pdf,Controladores Robustos com a Metodologia de Escalonamento de Ganhos e sua Aplicacao ao Controle de Atitude de um Veiculo Lancador,Article
+,,kienitz@ita.cta.br,,author:leticia_p_amaral:42437d20,Leticia P. Amaral,,,Author
+,,kienitz@ita.cta.br,,author:karl_h_kienitz:a377043a,Karl H. Kienitz,,,Author
+,Brazil,,,affiliation:instituto_tecnologico_de_aeronautica:ee34744c,Instituto Tecnológico de Aeronáutica,,,Affiliation
+,,,,theme:gain_scheduled_control_for_time_varying_linear_plants:c36d9fc9,Gain-Scheduled Control for Time-Varying Linear Plants,,,Theme
+,,,,theme:tfl_ltr_controller_structure:38b64a3a,TFL/LTR Controller Structure,,,Theme
+,,,,theme:lqg_ltr_controller_structure:349b4dcd,LQG/LTR Controller Structure,,,Theme
+,,,,theme:relaxing_restrictions_on_slow_model_variation:ab7afca0,Relaxing Restrictions on Slow Model Variation,,,Theme
+,,,,keyword:robust_control:f2caa090,Robust control,,,Keyword
+,,,,keyword:attitude_control:e4b88259,attitude control,,,Keyword
+,,,,keyword:time_varying_plants:ccf9cdec,time-varying plants,,,Keyword
+"Este trabalho apresenta uma forma alternativa de resolução de problemas de rede de fluxo multiproduto apoiado em conceitos de conjuntos fuzzy. O modelo de fluxo multiproduto proposto nesse trabalho tem característica de Programação Linear Fuzzy (PLF). A metodologia proposta foi aplicada na resolução do problema de definição do roteamento de cabos de fibras óticas em galerias existentes, considerando uma Redes de Transporte (RT) realística de grande porte baseada em tecnologia de Hierarquia Digital Síncrona (SDH). A tradução das imprecisões provenientes dos fluxos de demanda nas RT_SDH, devido a existência de diversos e sofisticados serviços de telecomunicações, foi feita por meio de conjuntos fuzzy. Os resultados mostraram que esta metodologia se apresenta bastante atraente, ao se utilizar conjuntos fuzzy, na modelagem do conhecimento da matriz de tráfego em RT_SDH.",,,"This paper presents an alternative way to solve multicommodity problems using fuzzy set. The proposed multicomodity model in this study has a Fuzzy Linear Programming (FLP) feature. The proposed methodology was applied in transportation network planning using SDH (Synchronous Digital Hierarchy) in order to define the route of the optical fiber over existing galleries. The fuzziness from the traffic matrix in RT_SDH, due to the various sophisticated telecommunications services into the network was represented by using fuzzy set.. The results showed that this methodology is more attractive than other that not consider the knowledge of the traffic matrix modeled as fuzzy set theory.",article:1998_350,,1998/350.pdf,Modelo de Fluxo Multiproduto em Problemas de Planejamento de RT_SDH Utilizando Otimizacao Fuzzy,Article
+,,cavati@ele.ufes.br,,author:cicero_romao_cavati:de5a4d44,Cicero Romao Cavati,,,Author
+,Brazil,,,affiliation:departamento_de_engenharia_eletrica_universidade_federal_do_espirito_s:6de1741c,"Departamento de Engenharia Elétrica, Universidade Federal do Espírito Santo",,,Affiliation
+,,,,theme:fuzzy_multicommodity_flow_model:e125b665,Fuzzy Multicommodity Flow Model,,,Theme
+,,,,theme:sdh_transport_network_planning:b9cd4296,SDH Transport Network Planning,,,Theme
+,,,,theme:fuzzy_traffic_matrix_represents_demand_uncertainty:41711807,Fuzzy Traffic Matrix Represents Demand Uncertainty,,,Theme
+,,,,keyword:telecomunications_planning:04f28a6a,Telecomunications Planning,,,Keyword
+,,,,keyword:optimization:fdf5e093,Optimization,,,Keyword
+,,,,keyword:fuzzy:e32e63d5,Fuzzy.,,,Keyword
+,,,,article:1998_351,,1998/351.pdf,Transmissao Simultanea de Voz e Dados Atraves do Uso de Algoritmos Baseados em RNAs e RBFs,Article
+,,,,author:i_b_da_silva:517dfb0e,I. B. da Silva,,,Author
+,,,,author:antonio_c_de_c_lima:de2bd3e7,Antonio C. de C. Lima,,,Author
+,,,,theme:qam_16_software_modem_for_simultaneous_voice_and_data:b8f8c04e,QAM-16 Software Modem for Simultaneous Voice and Data,,,Theme
+,,,,theme:ann_demodulation_pipeline_with_rls_and_rbf_stages:3d02811a,ANN Demodulation Pipeline with RLS and RBF Stages,,,Theme
+,,,,theme:need_to_share_one_channel_while_preserving_data_reliability:911b2bc2,Need to Share One Channel While Preserving Data Reliability,,,Theme
+,,,,theme:itu_v_29_recommendation:60ed4c89,ITU V.29 Recommendation,,,Theme
+,,,,article:1998_352,,1998/352.pdf,Equalizacao de Fase Baseada na Resposta ao Impulso,Article
+,,,,author:delmar_b_carvalho:46bc3a10,Delmar B. Carvalho,,,Author
+,,,,author:sidnei_n_filho:fac9b2a2,Sidnei N. Filho,,,Author
+,,,,author:rui_seara:9d5c448a,Rui Seara,,,Author
+,Brazil,,,affiliation:universidade_federal_de_santa_catarina:36d19a70,Universidade Federal de Santa Catarina,,,Affiliation
+,Brazil,,,affiliation:universidade_catolica_de_pelotas:7fbb92f7,Universidade Catolica de Pelotas,,,Affiliation
+,,,,theme:impulse_response_symmetry_for_phase_equalizer_design:2344e43e,Impulse Response Symmetry for Phase Equalizer Design,,,Theme
+,,,,theme:phase_equalizers:46940e61,Phase Equalizers,,,Theme
+,,,,theme:phase_linearity_better_characterized_by_impulse_response_symmetry:24730f00,Phase Linearity Better Characterized by Impulse Response Symmetry,,,Theme
+,,,,keyword:phase_equalizers:46940e61,Phase Equalizers,,,Keyword
+,,,,keyword:phase_interception_distortion:0ef2aa2e,Phase-interception distortion,,,Keyword
+,,,,keyword:impulse_response_symmetry:82b4d3e5,Impulse response symmetry,,,Keyword
+,,,"This talk begins by reviewing the historical developments and motivation that have led to the restructuring of the electric power industry. A comparison is made of the conventional electric monopolies and the new models based on market- driven electricity markets. In particular, pool and bilateral contract based market models will be presented and analyzed. Some of the current related research activities at McGill and elsewhere are also reviewed. A brief overview is given of the principal inde- pendent system operators in use today in North America and their main features. Finally, the talk suggests a number of business and research opportunities in the field of competitive power systems. Anais do XIII Congresso Brasileiro de Automática - CBA 2000 11 a 14 de setembro de 2000 - Florianópolis - SC - Brasil",article:2000_162,,2000/162.pdf,Restructuring of the Electric Power Industry,Article
+,,galiana@ece.mcgill.ca,,author:f_d_galiana:23bd9502,F. D. Galiana,,,Author
+,Canada,,,affiliation:mcgill_university:1ab559c9,McGill University,,,Affiliation
+,,,,theme:electric_power_industry_restructuring:3747c756,Electric Power Industry Restructuring,,,Theme
+,,,,theme:market_driven_electricity_models:7d2586f7,Market-Driven Electricity Models,,,Theme
+,,,,theme:historical_motivation_for_competitive_power_systems:9a0e9f04,Historical Motivation for Competitive Power Systems,,,Theme
+,,,"This short pap er pro vides a brief o v erview of the con ten t of the plenary lecture on h ybrid systems. Key references are also listed. Key W ords| h ybrid systems; v eri cation; sup ervisory con trol; appro ximation; reac habilit y .  In tro duction Hybrid systems are dynamic systems with b oth discrete-v alued and con tin uous-v alued state v ari- ables. Recen t in terest in h ybrid systems has b een stim ulated b y sev eral factors. F or con trol the- orists, there is the in tellectual c hallenge of ex- tending fundamen tal concepts suc h as stabilit y and con trollabilit y to the h ybrid system con text. Computer scien tists, on the other hand, are in- terested in extending formal metho ds for dealing with discrete-state systems to include con tin uous- state dynamics. F rom b oth p ersp ectiv es, the con- trol of ph ysical dynamic systems using comput- ers pro vides the principal set of p oten tial applica- tions. The ob jectiv e of this plenary presen tation is to pro vide an o v erview of ma jor themes in h y- brid system researc h during the past ten y ears, and to o er some p ersp ectiv e on the imp ortan t directions for future researc h. This brief pa- p er giv es a summary of the topics co v ered in the plenary session along with citations to some k ey references in the literature. F or general bac kground, the reader is encouraged to lo ok through some of the recen t sp ecial issues of jour- nals and series of conference and w orkshop pro- ceedings dev oted to h ybrid systems (Sp e cial Is- sue on Hybrid Systems,  ; Sp e cial Issue on Hy- brid Systems,  ; A Sp e cial Issue on Hybrid Sys- tems,  ; Sp e cial Issue on Hybrid Contr ol Sys- tems,  ; Hybrid Systems,  ; Hybrid Systems II,  ; Hybrid Systems III,  ; Hybrid Sys- tems IV,  ; Hybrid Systems V,  ; Hybrid and R e al-Time Systems-HAR T' ,  ; Hybrid Systems: Computation and Contr ol-HSCC' ,  ; Hybrid Systems: Computation and Contr ol- HSCC' ,  ; Hybrid Systems: Computation and Contr ol-HSCC'000, 000).  Mo dels of Hybrid Systems There are sev eral standard mo dels for con tin uous dynamic systems and discrete dy anmics systems. a a Throughout the remainder of the pap er, the terms c on- tinuous and discr ete refer to the t yp es of input, output and In the con trol literature, it is common to mo del h ybrid systems as the comp osition of con tin uous and discrete dynamic systems in terconnected b y discrete and con tin uous signals (An tsaklis et al.,  ). Blo c k diagrams can then b e used to repre- sen t h ybrid dynamic systems with sp ecial blo c ks to mak e con v ersions b et w een discrete-v alued and con tin uous-v alued signals (Krogh,  ). Another approac h to mo deling the discrete asp ects of a h y- brid system is to in tro duce logical (in teger) v ari- ables in expressions de ning constrain ts on the system b eha vior (Bemp orad and Morari,  ). This approac h has b ecome p opular in the pro- cess con trol comm unit y where discrete-time mo d- els are used in mo del predictiv e con trol (MPC) al- gorithms. In the computer science literature, con- tin uous dynamics are t ypically em b edded in the discrete states of the mo del, leading to the so- called h ybrid automaton (Henzinger,  ; Alur et al.,  ). The most appropriate mo del to use for a h y- brid system dep ends on the application con text and the to ols that will b e used for analysis and design. Systems in whic h the con tin uous dy an- mics dominate and discrete v ariables represen t relativ ely simple mo de-switc hing are most often mo deled using the con trol-theoretic blo c k diagram approac h. If the con tin uous dynamics are ex- tremely simple, suc h as pure in tegrators represen t- ing timers, and the discrete-state transition struc- ture dominates, the h ybrid automata framew ork is most natural. The follo wing sections describ e re- searc h directions for analysis and computer to ols that re ect the t w o mo deling p ersp ectiv es.  Con trol-Theoretic Concepts Con trol theorists ha v e studied v arious asp ects of h ybrid systems for man y y ears, although the name has b ecome p opular only recen tly (see, for ex- ample, (Witsenhausen,  )). One principal theme of the con trol researc h has b een to ex- tend de nitions and conditions for stabilit y of state v ariables used to describ e a system. As with con tin- uous and discrete dynamic systems, h ybrid systems can b e describ ed in discrete time or con tin uous time. 1 con tin uous systems to the h ybrid system con- text (Branic ky ,  ; Y e et al.,  ). P artic- ularly in teresting results ha v e b een obtained for piecewise linear systems using concepts from Ly- puno v stabilit y theory com bined with computa- tional metho ds based on linear matrix inequali- ties (Johansson and Ran tzer,  ; P ettersson and Lennartson, 000). New results ha v e also b een ob- tained on the stabilit y of nonlinear systems using discon tin uous feedbac k (Lib erzon, 000). Hybrid sytems pro vide a ric h con text for de ning v arious t yp es of con trol problems. One theme of the researc h on con trol in h ybrid systems has b een to build on results in the theory of dis- crete ev en t systems (Cury et al.,  ; Raisc h and O'Y oung,  ). In this w ork, the con troller is a purely discrete-state system, with discrete-v alued in terfaces to the h ybrid dynamic system. This is the situation often encoun tered in industrial con- trol systems, suc h as safet y con trollers for pro- cesses and discrete parts man ufacturing systems; that is, an y application in whic h a programmable logic con trollers (PLC) can b e emplo y ed. Sev- eral pap ers ha v e b een published on the syn the- sis of suc h sup ervisory con trollers for h ybrid dy- namic systems using the basic approac h of rst appro ximating the input-output b eha vior of the h ybrid dynamic system with a discrete-state sys- tem (Ch utinan and Krogh, 000). Lemmon et al. pro vide a go o d surv ey of researc h on con trol syn- thesis for h ybrid systems in (Lemmon et al.,  ).  The Computer Science P ersp ectiv e One of the most in teresting and stim ulating as- p ects of the recen t researc h activit y in h ybrid sys- tems is that the comm unit y of researc hers is it- self h ybrid, in v olving computer scien tists as w ell as con trol theorists. Recognizing that comput- ers often in teract with con tin uous dynamic sys- tems, computer scien tists ha v e b een activ ely pur- suing metho ds for extending their to ols to ad- dress h ybrid system problems. Most of this re- searc h has b een pursued in the con text of for- mal v eri cation using either mo del c hec king (Alur et al.,  ; Henzinger, Ho and W ong-T oi,  ) or theorem pro ving (Manna and Sipma,  ). Among the signi can t adv ances made from the computer science p ersp ectiv e are the exten- siv e results on the decidabilit y of v eri cation problems for v arious classes of h ybrid systems (Henzinger, Kopk e, Puri and V araiy a,  ; Laf- ferriere et al.,  ; Miller, 000). It is no w w ell kno wn that the in tro duction of v ery simple con tin- uous dynamics in a h ybrid automoton mo del can mak e v eri cation problems undecidable. These re- sults ha v e made it clear that one should not ex- p ect to o m uc h when b uil di ng computer to ols for analyzing h ybrid systems. They ha v e also encour- aged con trol theorists in terested in h ybrid systems to b ecome familiar with man y imp ortan t concepts from computer science.  Computer T o ols for Hybrid Systems Sev eral v endors of commercial sim ulation pac k- ages no w supp ort mo deling and sim ulation of h y- brid dynamic systems. Detecting ev en ts based on the ev olution of con tin uous dynamics and in te- grating the con tin uous dynamics correctly is the k ey issue in the sim ulation of h ybrid systems. F or v eri cation of h ybrid systems, sev eral researc h groups ha v e in tro duced soft w are pac k ages that can b e do wnloaded. These pac k ages represen t the state of the art in h ybrid systems researc h. A go o d resource for up-to-date information on h ybrid sys- tems soft w are, as w ell as other h ybrid systems information, is the w ebpage of the IEEE T ec h- nical Committee on Hybrid Dynamical Systems, http://www.nd.ed u/ lemmon/hybrid/.  Directions for F uture Researc h The eld of h ybrid systems has gro wn tremen- dously in the last few y ears. A searc h of the IN- SPEC database of scien ti c and tec hnical jour- nals using the k ey w ords \h ybrid systems"" and \con trol"" yielded ,0 records! Consequen tly , it is imp ossible to predict where all the researc h is headed. Nev ertheless, one can iden tify some k ey issues that m ust b e addressed b y future re- searc h if the activit y in this eld is to ha v e sig- ni can t impact on engineering practice. The plenary presen tation fo cuses on t w o of these is- sues: the relationship of h ybrid systems researc h to to ols for computer-aided design and analy- sis of soft w are for em b edded con trollers; and the fundamen tal problem of computing reac habil- it y and attainabilit y sets for con tin uous dynamic systems. Recen t researc h on the latter prob- lem is rep orted in the follo wing references (Puri et al.,  ; Dang and Maler,  ; Ch utinan and Krogh,  ; Preuig et al.,  ; Botc hk arev and T ripakis, 000; Greenstreet and Mitc hell,  ). References Alur, R., Courcoub etis, C., Henzinger, T. and P o, P .-H. ( ). Hybrid automata: an algorith- mic approac h to the sp eci cation and v eri- cation of h ybrid systems, Hybrid Systems, n um b er  in L e ctur e Notes in Computer Scienc e, Springer-V erlag. Alur, R., Henzinger, T. and Ho, P .-H. ( ). Automatic sym b olic v eri cation of em b edded systems, IEEE T r ans. on Softwar e Engine er- ing (): {0. An tsaklis, P ., Stiv er, J. and Lemmon, M. ( ). Hybrid system mo deling and autonomous 2",article:2000_164,,2000/164.pdf,Hybrid Systems: State of the Art and Perspectives,Article
+,,krogh@cmu.edu,,author:bruce_h_krogh:e447061d,Bruce H. Krogh,,,Author
+,,,,affiliation:university:715432dc,University,,,Affiliation
+,,,,theme:hybrid_systems:df426d01,Hybrid Systems,,,Theme
+,,,,theme:hybrid_system_verification_and_supervisory_control:7d08ad6f,Hybrid-System Verification and Supervisory Control,,,Theme
+,,,,theme:hybrid_model_choice_depends_on_application_context_and_tools:9aa8d43e,Hybrid Model Choice Depends on Application Context and Tools,,,Theme
+"Este trabalho apresenta a análise de um novo retificador, operando como abaixador de tensão, empregando-se o conversor Zeta com comutação não- dissipativa do tipo sob corrente nula (ZCS) e modulação por largura de pulso (PWM). Através da técnica de controle por valores médios de corrente e operação no modo de condução contínua, obtém-se uma estrutura com elevado fator de potência e reduzida taxa de distorção harmônica na corrente de entrada. O novo retificador Zeta ZCS-PWM com elevado fator de potência, emprega uma nova célula de comutação ZCS-PWM. Nesta célula, a entrada em condução dos interruptores ocorre sob corrente nula (ZC) e o bloqueio sob corrente e tensão nulas (ZCZV). Para os diodos, a entrada em condução ocorre com tensão nula (ZV) e os efeitos de recuperação reversa dos mesmos sobre os interruptores são reduzidos. Estas características tornam esta célula apropriada para aplicações com IGBTs. Em complemento, torna-se importante observar que o novo retificador Zeta, gerado a partir da nova célula de comutação ZCS-PWM, pode ser naturalmente isolável através de seu indutor de acumulação. É apresentado o princípio de operação, a análise teórica, um exemplo de projeto para o novo retificador Zeta operando como abaixador de tensão e os seus resultados experimentais provenientes de um protótipo com características nominais de 500W, tensão de saída de 110VCC, tensão de alimentação de 220Veficaz e operando com freqüência de chaveamento de 50kHz. O rendimento medido para o novo retificador Zeta, para carga nominal, é de 96,95% e o fator de potência é igual a 0,98.",,,"This work presents an analysis of a novel rectifier in a voltage step-down operation employing the Zeta converter, featuring zero-current-switching (ZCS) with pulse-width-modulated (PWM) at active switches. The average-current mode control technique is used in order to obtain a structure with high power-factor (HPF) and low total harmonic distortion in the input current. The novel HPF ZCS-PWM Zeta rectifier uses a new soft-commutation cell, and it is composed by two active switches (main and auxiliary transistors), two diodes, two small resonant inductors and one small resonant capacitor. In this cell, the turn-on of the active switches occurs in zero-current (ZC) and their turn-off in zero-current and zero-voltage (ZCZV). For the diodes, their turn-on process occurs in zero-voltage (ZV) and the reverse-recovery effects over the active switches are reduced. These characteristics make this cell suitable for Insulated- Gate Bipolar Transistors (IGBTs) applications. In addition, it should be noticed that the Zeta rectifier, generated from this new soft-commutation cell, can be naturally isolated through their accumulation inductor. It is presented the principle of operation, the theoretical analysis, a design example for the new Zeta rectifier in a voltage step-down operation and their experimental results from a test unit rated at 500W output power, 110Vdc output voltage, 220Vrms input voltage, and operating at 50kHz of switching frequency. The measured efficiency at nominal load is equal to 96.95% and the power factor is equal to 0.98, for this new rectifier proposed.",article:2000_CBA007,,2000/CBA007.pdf,Retificador Abaixador de Tensao Zeta ZCS-PWM com Elevado Fator de Potencia,Article
+,,canesin@dee.feis.unesp.br,,author:marcelo_j_bonato:d8ada25c,Marcelo J. Bonato,,,Author
+,,canesin@dee.feis.unesp.br,,author:carlos_a_canesin:272729aa,Carlos A. Canesin,,,Author
+,Brazil,,,affiliation:universidade_estadual_paulista:1b4f4989,Universidade Estadual Paulista,,,Affiliation
+,,,,theme:zeta_zcs_pwm_step_down_rectifier:16436a99,Zeta ZCS-PWM Step-Down Rectifier,,,Theme
+,,,,theme:high_power_factor_with_low_input_current_harmonic_distortion:fa98ebdb,High Power Factor with Low Input Current Harmonic Distortion,,,Theme
+,,,,theme:non_dissipative_zcs_commutation_reduces_semiconductor_stress:63c8c0f1,Non-Dissipative ZCS Commutation Reduces Semiconductor Stress,,,Theme
+,,,,keyword:rectifiers:f193bd4f,Rectifiers,,,Keyword
+,,,,keyword:power_factor_correction:dcd12361,Power Factor Correction,,,Keyword
+,,,,keyword:componentes:3da10fc7,componentes,,,Keyword
+,,,,keyword:tecnicas_de_comando_e_controle:7c08fb66,técnicas de comando e controle,,,Keyword
+,,,,keyword:na_tentativa_de_solucionar_esses_problemas:0f8674d1,na tentativa de solucionar esses problemas,,,Keyword
+,,,,keyword:apesar_das_suas_caracteristicas_vantajosas_elevado_rendimento:e4489005,apesar das suas características vantajosas (elevado rendimento,,,Keyword
+,,,,keyword:reduzidos_esforcos_tensao_corrente_e_elevado_fator_de_potencia:e6b3c839,reduzidos esforços tensão/corrente e elevado fator de potência),,,Keyword
+,,,,keyword:portanto:52b3b87c,portanto,,,Keyword
+,,,,keyword:para_aplicacoes_como_abaixador_de_tensao:34d6ca50,para aplicações como abaixador de tensão,,,Keyword
+,,,,keyword:com_a_operacao_no_modo_descontinuo_de_corrente:8ec5ecb0,com a operação no modo descontínuo de corrente,,,Keyword
+,,,,keyword:adotada_em_4:a976a739,adotada em [4],,,Keyword
+,,,,keyword:implica_em_elevados_esforcos_de_corrente_nos_semicondutores:ca5da41f,implica em elevados esforços de corrente nos semicondutores,,,Keyword
+,,,,keyword:porem_a_tecnica_de_comutacao_empregada_sendo_dissipativa:f3dfdbc5,porém a técnica de comutação empregada sendo dissipativa,,,Keyword
+,,,,keyword:proporcionou_um_reduzido_rendimento_para_a_estrutura_apresenta_se_enta:23eac0a0,proporcionou um reduzido rendimento para a estrutura. Apresenta-se então neste trabalho,,,Keyword
+,,,,keyword:como_proposta_para_solucionar_estes_problemas:0ba55e61,como proposta para solucionar estes problemas,,,Keyword
+,,,,keyword:um_novo_retificador_zeta_com_elevado_fator_de_potencia:56856e79,um novo retificador Zeta com elevado fator de potência,,,Keyword
+,,,,keyword:operando_em_conducao_continua:771b0c83,operando em condução contínua,,,Keyword
+,,,,keyword:com_comutacao_nao_dissipativa_do_tipo_com_corrente_nula_zcs:08a5b831,com comutação não-dissipativa do tipo com corrente nula (ZCS),,,Keyword
+,,,,keyword:controlado_por_corrente_media_imposta_e_operando_como_abaixador_de_ten:8da0e70f,controlado por corrente média imposta e operando como abaixador de tensão,,,Keyword
+,,,,keyword:como_o_conversor_zeta_apresenta_saida_com_caracteristicas_de_fonte_de_:13551464,como o conversor Zeta apresenta saída com características de fonte de corrente,,,Keyword
+,,,,keyword:pode_se_aplica_lo_em_sistemas_carregadores_de_baterias:5bbae1fb,pode-se aplicá-lo em sistemas carregadores de baterias,,,Keyword
+,,,,keyword:a_nova_celula_e_composta_por_dois_interruptores_bidirecionais_em_corre:4592d8ad,a nova célula é composta por dois interruptores bidirecionais em corrente Sp e Sa,,,Keyword
+,,,,keyword:dois_diodos_d1_e_d2:17df64e5,dois diodos D1 e D2,,,Keyword
+,,,,keyword:que_e_gerada_a_partir_da_composicao_de_tres_sinais:e070c831,que é gerada a partir da composição de três sinais,,,Keyword
+,,,,keyword:designados_de_a:10d60b38,designados de A,,,Keyword
+,,,,keyword:b_e_c:e1d7c3e8,B e C,,,Keyword
+,,,,keyword:conforme_figura_2_sendo_que:9d5a2d67,conforme figura 2. Sendo que,,,Keyword
+,,,,keyword:a_e_um_sinal_proporcional_a_tensao_de_saida:a7f8fbf9,A é um sinal proporcional à tensão de saída,,,Keyword
+,,,,keyword:b_e_uma_amostra_da_tensao_de_entrada:756cdef2,B é uma amostra da tensão de entrada,,,Keyword
+,,,,keyword:pode_se_citar_frequencia_de_operacao_constante_modulacao_pwm:6d2f940e,pode-se citar: freqüência de operação constante (modulação PWM),,,Keyword
+,,,,keyword:operacao_no_modo_continuo_de_corrente:d7febed5,operação no modo contínuo de corrente,,,Keyword
+,,,,keyword:baixa_taxa_de_distorcao_harmonica_e_elevado_fator_de_potencia:28fd5ebc,baixa taxa de distorção harmônica e elevado fator de potência,,,Keyword
+,,,,keyword:reducao_dos_esforcos_nos_semicondutores_em_relacao_a_conducao_desconti:38c4741b,redução dos esforços nos semicondutores em relação à condução descontínua,,,Keyword
+,,,,keyword:para_facilitar_a_analise_do_novo_retificador_zeta_zcs_pwm:d5fb2c98,para facilitar a análise do novo retificador Zeta ZCS-PWM,,,Keyword
+,,,,keyword:quais_sejam_todos_os_componentes_sao_ideais:f640bd48,quais sejam: todos os componentes são ideais,,,Keyword
+,,,,keyword:o_conversor_encontra_se_operando_em_regime_permanente:12f52ad5,o conversor encontra-se operando em regime permanente,,,Keyword
+,,,,keyword:entao_para_um_periodo_generico_de_chaveamento_ti:80230f7c,então para um período genérico de chaveamento (Ti),,,Keyword
+,,,,keyword:a_tensao_de_entrada_e_considerada_constante:41b32a71,a tensão de entrada é considerada constante,,,Keyword
+,,,,keyword:a_tensao_instantanea_de_entrada_e_considerada_puramente_senoidal:9ae07fea,a tensão instantânea de entrada é considerada puramente senoidal,,,Keyword
+,,,,keyword:admitindo_se_que_o_ripple_de_corrente_na_carga_seja_desprezivel:17c0da2e,admitindo-se que o ripple de corrente na carga seja desprezível,,,Keyword
+,,,,keyword:o_indutor_l0:58109470,o indutor L0,,,Keyword
+,,,,keyword:o_capacitor_c0_e_o_resistor_r0:fee99b33,o capacitor C0 e o resistor R0,,,Keyword
+,,,,keyword:a_partir_da_analise:aace5d02,a partir da análise,,,Keyword
+,,,,keyword:a_existencia_de_nove_etapas_distintas_de_funcionamento:be65bd17,a existência de nove etapas distintas de funcionamento,,,Keyword
+,,,,keyword:durante_um_periodo_generico_de_funcionamento_ti:4575f20e,durante um período genérico de funcionamento (Ti),,,Keyword
+,,,,keyword:apresentadas_nas_figuras_4_a_ate_4_i_as_etapas_sao_descritas_a_seguir:81066fb2,apresentadas nas figuras 4.a até 4.i. As etapas são descritas a seguir,,,Keyword
+,,,,keyword:onde_vce_v0_inicialmente_o_diodo_d2_conduz_a_corrente_im_ti_i0:698553f9,onde VCe=V0. Inicialmente o diodo D2 conduz a corrente IM(ωTi)+I0,,,Keyword
+,,,,keyword:em_t_t1:e003b690,em ωt=ωt1,,,Keyword
+,,,,keyword:assume_a_corrente_atraves_de_d2:a688c2c9,assume a corrente através de D2,,,Keyword
+,,,,keyword:que_se_bloqueia_neste_instante_2a_etapa_figura_4_b_para_esta_etapa:954fa38b,que se bloqueia neste instante. 2a etapa (figura 4.b) - Para esta etapa,,,Keyword
+,,,,keyword:devido_a_presenca_de_lr2:c0c7fad4,devido à presença de Lr2,,,Keyword
+,,,This paper presents the design of an output feedback trajectory controller for a Automated Guided Vehicle (AGV) differential drive. Its control architecture assumes that the two drive wheels are not coupled and the vehicle dynamics is not taken into account. It employs two independent velocity controllers that ensure the wheels’ velocities referenced by the trajectory controller. The reference trajectory is painted on the ground and is composed only by line segments and soft arcs. Simulation and experimental results show the satisfactory tracking performance of the proposed controller.,article:2000_CBA623,,2000/CBA623.pdf,Design of an Output Feedback Trajectory Controller for an Automated Guided Vehicle,Article
+,,borges@lirmm.fr,,author:geovany_a_borges:e3de1016,Geovany A. Borges,,,Author
+,,deepg@dee.ufpb.br,,author:antonio_m_n_lima:48056faa,Antonio M. N. Lima,,,Author
+,,deepg@dee.ufpb.br,,author:gurdip_s_deep:207e9d88,Gurdip S. Deep,,,Author
+,France,,,affiliation:lirmm_universite_montpellier_ii:9ddf4e7b,"LIRMM, Universite Montpellier II",,,Affiliation
+,Brazil,,,affiliation:departamento_de_engenharia_el_etrica_universidade_federal_da_para_ba:8fd4f8c3,"Departamento de Engenharia El´etrica, Universidade Federal da Para´ıba",,,Affiliation
+,Brazil,,,affiliation:universidade_federal_da_paraiba:2210d92e,Universidade Federal da Paraiba,,,Affiliation
+,,,,theme:output_feedback_trajectory_controller_for_agv:9bc9ab22,Output Feedback Trajectory Controller for AGV,,,Theme
+,,,,theme:non_holonomic_differential_drive_agv:5f994cbb,Non-Holonomic Differential-Drive AGV,,,Theme
+,,,,theme:controller_designed_for_linear_segments_and_soft_arcs:9652b46f,Controller Designed for Linear Segments and Soft Arcs,,,Theme
+,,,,keyword:robot_control:9c7b793f,Robot control,,,Keyword
+,,,,keyword:mobile_robots:fb5a4a2a,mobile robots,,,Keyword
+,,,,keyword:nonlinear_systems:9c719c74,nonlinear systems,,,Keyword
+,,,,keyword:trajectory_tracking:618304dd,trajectory tracking,,,Keyword
+,,,,keyword:control_schemes:600c0ec8,control schemes.,,,Keyword
+,,,,article:2000_CBA624,,2000/CBA624.pdf,Caracterizacao Eletrica de um Modelo Variante no Tempo de um Sensor Termo-Resistivo,Article
+,,,,author:g_b_brandao:522ab1e6,G. B. Brandao,,,Author
+,,,,author:g_s_deep:ffef4092,G. S. Deep,,,Author
+,,,,author:a_m_n_lima:d271b5c4,A. M. N. Lima,,,Author
+,,,,author:h_f_neff:52bfc25c,H. F. Neff,,,Author
+,,,,theme:time_varying_thermoresistive_sensor_model:439c5c56,Time-Varying Thermoresistive Sensor Model,,,Theme
+,,,,theme:static_and_dynamic_system_identification_of_ptc_sensor:251dd270,Static and Dynamic System Identification of PTC Sensor,,,Theme
+,,,,theme:temperature_influence_makes_constant_sensor_parameters_inadequate:7b100889,Temperature Influence Makes Constant Sensor Parameters Inadequate,,,Theme
+,,,,keyword:thermoresistive_sensor:b29aada5,Thermoresistive sensor,,,Keyword
+,,,,keyword:heat_transfer:3bdbafe0,Heat transfer,,,Keyword
+,,,,keyword:system_identification:c26e342f,System identification,,,Keyword
+,,,,keyword:sensor_characterization:c34c5af8,Sensor characterization,,,Keyword
+,,,"The use of electronic loads has increased significantly throughout the last decades. Such devices present an inherent non linearity characteristic due to the existence of switched power supplies in the input side, which convert the line ac voltage to the dc voltage level necessary to feed electronic circuits. This paper will focus on I2R losses under non sinusoidal conditions, mainly in cables and transformers. For this purpose, a mathematical development that takes in account the presence of harmonic components in the I2R losses calculation will be presented, so that the effects of the harmonic distortion in the power system components and consequently its impact on the power factor can be analyzed. Based on this analysis, a factor that evaluates the power quality performance in low voltage networks is presented. This factor is directly associated to the economical viability, once that it points when the losses minimization is interesting according to the cost/benefit ratio.",article:2002_43,,2002/43.pdf,Proposal of a Factor Regarding Power Quality Performance,Article
+,,aloisio@rapidanet.com.br,,author:aloisio_de_oliveira:58eea06c,Aloisio de Oliveira,,,Author
+,,sergiosanhueza@bol.com.br,,author:sergio_m_r_sanhueza:2a1331f3,Sergio M. R. Sanhueza,,,Author
+,,tofoli@lycos.com,,author:fernando_l_tofoli:a5601a1d,Fernando L. Tofoli,,,Author
+,Brazil,,,affiliation:faculdade_de_engenharia_eletrica_universidade_federal_de_uberlandia:6679bc55,"Faculdade de Engenharia Elétrica, Universidade Federal de Uberlândia",,,Affiliation
+,,,,theme:power_quality_performance_factor:61a36ddb,Power Quality Performance Factor,,,Theme
+,,,,theme:harmonic_i2r_losses_in_cables_and_transformers:3b259a14,Harmonic I2R Losses in Cables and Transformers,,,Theme
+,,,,theme:loss_minimization_should_be_evaluated_by_cost_benefit_ratio:113ac3a4,Loss Minimization Should Be Evaluated by Cost-Benefit Ratio,,,Theme
+,,,,keyword:i2r_losses:8d61ed96,I2R losses,,,Keyword
+,,,,keyword:true_power_factor:03983248,true power factor,,,Keyword
+,,,,keyword:harmonics:0080c412,harmonics,,,Keyword
+,,,,keyword:reactive_i2r_power_losses:464f69b2,reactive I2R power losses,,,Keyword
+,,,,keyword:power_quality_factor:2db1ea20,power quality factor.,,,Keyword
+"Este artigo apresenta a aplicação de uma rede CAN ao controle de um helicóptero não tripulado do tipo HELIX, baseado na arquitetura de processamento distribuído proposta por Fascioni (1996). Foi realizado um estudo detalhado para a empregabilidade de uma rede CAN no sistema HELIX, para situações que não foram consideradas na análise preliminar, as quais podem comprometer o projetista no âmbito de controle da aeronave. Situações como a presença de Jitter no conjunto de mensagens, a alta carga de mensagens sob uma rede, e a consideração de presença de erros de transmissão. Como a rede CAN oferece boas propriedades para transmissão de mensagens com requisitos temporais, foi realizada uma análise de latência para a transmissão de mensagens utilizando-se da teoria de escalonamento em tempo real de um simples processador, e um exemplo numérico é apresentado de forma ilustrativa ao problema apresentado.",,,,article:2002_48,,2002/48.pdf,Uma Rede CAN Aplicada ao Controle de uma Aeronave Nao Tripulada - O Helicoptero HELIX,Article
+,,maxmauro@unilestemg.br,,author:max_m_d_santos:a4340f77,Max M. D. Santos,,,Author
+,,marcelo@das.ufsc.br,,author:marcelo_r_stemmer:2744e5ae,Marcelo R. Stemmer,,,Author
+,,vasques@fe.up.pt,,author:francisco_vasques:aaae47fb,Francisco Vasques,,,Author
+,Portugal,,,affiliation:universidade_do_porto:35333c55,Universidade do Porto,,,Affiliation
+,,,,theme:can_network_for_helix_unmanned_helicopter_control:10a17547,CAN Network for HELIX Unmanned Helicopter Control,,,Theme
+,,,,theme:real_time_can_message_latency_analysis:8004fa38,Real-Time CAN Message Latency Analysis,,,Theme
+,,,,theme:distributed_processing_reduces_volume_and_weight_and_increases_process:6f92cad5,Distributed Processing Reduces Volume and Weight and Increases Processing,,,Theme
+,,,,keyword:can:aa884ac5,CAN,,,Keyword
+,,,,keyword:sistemas_de_tempo_real:b80ce1c4,Sistemas de Tempo Real,,,Keyword
+,,,,keyword:sistemas_distribuidos:00eeed01,Sistemas Distribuídos,,,Keyword
+,,,,keyword:comunicacao_em_tempo_real:2595aa97,Comunicação em Tempo Real,,,Keyword
+,,,,keyword:helix:80446e90,HELIX.,,,Keyword
+"Este artigo tem por objetivo investigar os impactos causados na operação de conversores de freqüência PWM-VSI, quando estes se encontram submetidos a afundamentos de tensão balanceados e desbalanceados. São analisados resultados obti- dos de simulações computacionais, através de modelos implementados na plataforma SABER, bem como correspondentes de- sempenhos derivados de montagens experimentais. A análise comparativa entre os mesmos pode ser usada para fins de valida- ção dos modelos empregados. Os trabalhos enfocam um conversor comercial e, para fins experimentais, utiliza-se uma fonte programável de distúrbios de qualidade, a qual, dentre outras possibilidades, permite a reprodução de afundamentos simétricos e assimétricos para a tensão de suprimento. Ao final, obtém-se informações relativas aos níveis de suportabilidade admissíveis pelo equipamento considerado.",,,"This paper aims at presenting investigation results related to PWM-VSI frequency converters performance under both balanced and unbalanced voltage sag conditions. Besides computational analysis using a comprehensive model implemented into the Saber simulator, practical studies are also given. The later uses a commercial type of converter fed by a programmable Power Quality disturbance source. Using both the theoretical and practical ways of considering the equipment performance un- der voltage sag conditions, several situations are simulated to evaluate the equipment behavior and its ride-through capability.",article:2002_874,,2002/874.pdf,Estudos Computacionais e Experimentais sobre o Desempenho de Conversores de Frequencia VSI-PWM sob Afundamentos Momentaneos de Tensao Balanceados e Desbalanceados,Article
+,,pcaleao@funrei.br,,author:paulo_c_a_leao:2ec751f6,Paulo C. A. Leao,,,Author
+,,jcoliveira@ufu.br,,author:jose_c_de_oliveira:11cd13bf,Jose C. de Oliveira,,,Author
+,,fnbelchior@alunos.ufu.br,,author:fernando_n_belchior:dd87bc72,Fernando N. Belchior,,,Author
+,,,,affiliation:departamento_de_engenharia_eletrica:6f088dae,Departamento de Engenharia Elétrica,,,Affiliation
+,Brazil,,,affiliation:universidade_federal_de_sao_joao_del_rei:f246acb3,Universidade Federal de São João del-Rei,,,Affiliation
+,Brazil,,,affiliation:faculdade_de_engenharia_eletrica:6a6dc5c6,Faculdade de Engenharia Elétrica,,,Affiliation
+,Brazil,,,affiliation:universidade_federal_de_uberlandia:b49dd3bf,Universidade Federal de Uberlândia,,,Affiliation
+,,,,theme:vsi_pwm_frequency_converter_performance_under_voltage_sag:7124803a,VSI-PWM Frequency Converter Performance under Voltage Sag,,,Theme
+,,,,theme:saber_simulation_and_laboratory_experiments:2d7455ea,SABER Simulation and Laboratory Experiments,,,Theme
+,,,,theme:need_to_quantify_equipment_supportability_under_power_quality_disturba:95707a21,Need to Quantify Equipment Supportability under Power Quality Disturbances,,,Theme
+,,,,keyword:power_quality:95b28f44,Power quality,,,Keyword
+,,,,keyword:frequency_converters:04efb6a9,frequency converters,,,Keyword
+,,,,keyword:balance_and_unbalanced_voltage_sag:44d489f3,balance and unbalanced voltage sag.,,,Keyword
+"Um estudo de sobretensões transitórias resultantes da energização e desenergização de bancos de capacitores de alta tensão é apresentado. O EMTP (Electromagnetic Transients Program) é utilizado para realizar as simulações digitais. Estudos de análise de sensibilidade foram realizados para avaliar o efeito da representação das cargas, linhas de transmissão e pára-raios.",,,"A case study for the analysis of transient overvoltages due to energization and deenergization of high voltage ca- pacitor banks in a typical system is presented. The EMTP (Electromagnetic Transients Program) is used to perform digital simu- lations. Sensitivity analysis studies were carried out to evaluate the effect of the representation of the loads, transmission lines and surge arresters.",article:2002_875,,2002/875.pdf,Sobretensoes Transitorias Decorrentes de Manobras de Bancos de Capacitores,Article
+,,franklin@dee.ufpb.br,,author:franklin_m_p_pamplona:1ef58934,Franklin M. P. Pamplona,,,Author
+,,damasio@dee.ufpb.br,,author:damasio_fernandes_jr:0ccd6ae1,Damasio Fernandes Jr.,,,Author
+,,benemar@dee.ufpb.br,,author:benemar_a_souza:3a528735,Benemar A. Souza,,,Author
+,,waneves@dee.ufpb.br,,author:washington_l_a_neves:db4db963,Washington L. A. Neves,,,Author
+,Brazil,,,affiliation:laboratorio_de_alta_tensao_departamento_de_engenharia_eletrica_univers:bff378a3,"Laboratório de Alta Tensão, Departamento de Engenharia Elétrica, Universidade Federal da Paraíba",,,Affiliation
+,,,,theme:transient_overvoltages_from_capacitor_bank_switching:a5fdd11a,Transient Overvoltages from Capacitor Bank Switching,,,Theme
+,,,,theme:emtp_microtran_digital_simulation:2827d7b9,EMTP/MICROTRAN Digital Simulation,,,Theme
+,,,,theme:sensitivity_analysis_evaluates_load_line_and_surge_arrester_representa:c72018c2,"Sensitivity Analysis Evaluates Load, Line, and Surge-Arrester Representations",,,Theme
+,,,,keyword:shunt_capacitor_energization:d241259d,Shunt capacitor energization,,,Keyword
+,,,,keyword:capacitor_switching:ae308d03,capacitor switching,,,Keyword
+,,,,keyword:switching_surges:bb75ada9,switching surges,,,Keyword
+,,,,keyword:shunt_capacitor_banks:315e8a87,shunt capacitor banks,,,Keyword
+,,,,keyword:transient_overvoltages:22716d5d,transient overvoltages,,,Keyword
+,,,,keyword:emtp:8eb97281,EMTP.,,,Keyword
+"Este artigo apresenta estudos de desempenho de um aparelho condicionador de ar, tipo janela, quando submetido a um suprimento de energia elétrica com padrões de qualidade comprometidos. São apresentados os resultados de estudos experimentais e computacionais, onde é avaliado o desempenho do equipamento, submetido a distúrbios do tipo: elevação e afundamento temporário de tensão, interrupções e distorções harmônicas. Para os estudos computacionais foi implementado modelo computacional do motor de indução bifásico assimétrico, no domínio do tempo. Para a realização dos trabalhos experimentais foi utilizada fonte especial que possibilita a aplicação dos distúrbios acima referidos.Nos estudos computacionais utilizou-se o pacote de simulação Saber. Os trabalhos experimentais foram conduzidos em conformidade com as normas IEC e IEEE, voltados para a avaliação da sensibilidade de equipamentos na faixa de potência definida na norma.",,,"The paper shows the behavior of residential air conditioner, when submitted to electrical power supplies whith no quality. It shows the results of computational and experimental studies, where are avaluate the behavior of the equipament, when disturbs are presents. Some kind of disturbs: voltage Sag, voltage Swell, interruptions and harmonics distortion. For the computational studies were implemented a computacional model of motor unsymmetrical 2 - Phase induction, in the time dominion. For the experimental works, were used a special power source, what permits to apply all kind of disturbs. In the computational studies were used the SABER software. The studies were realized conformed the IEC and IEEE standard, what the main objective is to avaluate the sensibility of the equipaments in a range of power.",article:2002_877,,2002/877.pdf,Condicionador de Ar: Impacto da Qualidade da Energia de Suprimento no Desempenho do Equipamento,Article
+,,bcc@cpd.ufmt.br,,author:bismarck_c_castillo:7f36b3ee,Bismarck C. Castillo,,,Author
+,,delaiba@ufu.br,,author:antonio_carlos_delaiba:bc2aad1b,Antonio Carlos Delaiba,,,Author
+,,,,affiliation:laboratorio_de_qualidade_depto_de_engenharia_eletrica_departamento_de_:4db8de62,"Laboratório de Qualidade, Depto. De Engenharia Elétrica Departamento de Engenharia Elétrica",,,Affiliation
+,Brazil,,,affiliation:faculdade_de_engenharia_eletrica_faculdade_de_arquitetura_engenharia_e:1d555d1e,"Faculdade de Engenharia Elétrica Faculdade de Arquitetura, Engenharia e Tecnologia",,,Affiliation
+,Brazil,,,affiliation:universidade_federal_de_uberlandia_universidade_federal_de_mato_grosso:413c432f,Universidade Federal de Uberlândia Universidade Federal de Mato Grosso,,,Affiliation
+,,,,theme:residential_air_conditioner_sensitivity_to_supply_power_quality:ca792f4a,Residential Air Conditioner Sensitivity to Supply Power Quality,,,Theme
+,,,,theme:asymmetrical_two_phase_induction_motor_model:2a614520,Asymmetrical Two-Phase Induction Motor Model,,,Theme
+,,,,theme:massive_use_and_degraded_supply_make_air_conditioner_study_important:854f5867,Massive Use and Degraded Supply Make Air Conditioner Study Important,,,Theme
+,,,,keyword:power_quality:82d19f76,Power Quality,,,Keyword
+,,,,keyword:sensivity:b0ff9b8e,Sensivity,,,Keyword
+,,,,keyword:air_conditionair:684591ec,Air conditionair,,,Keyword
+,,,,keyword:unsymmetrical_2_phase_induction_machines:a8cbe571,Unsymmetrical 2-Phase Induction Machines,,,Keyword
+,,,,keyword:templates:7981a4e7,templates,,,Keyword
+"O presente trabalho mostra um estudo sobre a coopera¸c˜ao entre robˆos para executar cord˜oes de solda em uma pe¸ca de alum´ınio, com geometria razoavelmente complexa. A ﬁm de atender a melhor condi¸c˜ao de soldagem (a condi¸c˜ao plana), foi desenvolvido um m´etodo para o c´alculo da trajet´oria e velocidades relativas entre tocha e pe¸ca, em que cada uma ´e movimentada por um dos robˆos. Como n˜ao se disp˜oe de um robˆo com arquitetura aberta que possibilite a implementa¸c˜ao dos algoritmos de c´alculo das trajet´orias, utilizou-se um motor de passo, controlado por um computador (robˆo master), que movimenta a pe¸ca e um robˆo Motoman SK6 como soldador(slave). Apesar das restri¸c˜oes para a realiza¸c˜ao do experimento:a utiliza¸c˜ao de um robˆo posicionador com apenas um grau de liberdade e as diﬁculdades de soldagem do alum´ınio, veriﬁcou-se a viabilidade da utiliza¸c˜ao do m´etodo proposto na coopera¸c˜ao entre robˆos na soldagem de pe¸cas com restri¸c˜oes geom´etricas.",,,"This work shows a study of robots cooperation to perform welding of an aluminum piece with a reasonably complex geometry. In order to obtain the best welding condition (plan position), it was developed a method to calculate the path and the relative speeds between the torch and the workpiece geometry. Since there was not an open architecture robot available, to allow the implementation of the algorithms for the paths calculation, a step motor controlled by a PC, as robot-master moving the piece was used. A industrial robot with 6 degree of freedom was used as the welder-slave. Despite the diﬃculties to accomplish the results, mainly the fact that the positioner robot has only one degree of freedom and the diﬃculty of weld aluminum, it was veriﬁed that proposed method in cooperate robots to weld complex pieces is viable.",article:2004_1323,,2004/1323.pdf,Uma Abordagem na Soldagem de Pecas com Restricoes Geometricas,Article
+,,adgneto@yahoo.com.br,,author:adgenor_l_neto:ff175aad,Adgenor L. Neto,,,Author
+,,ejlima2@hotmail.com,,author:eduardo_j_lima_ii:5af9e69c,Eduardo J. Lima II,,,Author
+,,rventura@eletro.ufrgs.br,,author:renato_v_b_henriques:807204c4,Renato V. B. Henriques,,,Author
+,,bracarense@ufmg.br,,author:alexandre_q_bracarense:4b260d0d,Alexandre Q. Bracarense,,,Author
+,Brazil,,,affiliation:universidade_federal_de_minas_gerais:24fe50f7,∗Universidade Federal de Minas Gerais,,,Affiliation
+,,,,affiliation:escola_de_engenharia_departamento_de_engenharia_mecanica:5a9adb5f,"Escola de Engenharia, Departamento de Engenharia Mecˆanica",,,Affiliation
+,Brazil,,,affiliation:universidade_federal_do_rio_grande_do_sul:70c0e67b,Universidade Federal do Rio Grande do Sul,,,Affiliation
+,,,,affiliation:escola_de_engenharia_departamento_de_endenharia_el_etrica:a5b61a8f,"Escola de Engenharia, Departamento de Endenharia El´etrica",,,Affiliation
+,Brazil,,,affiliation:universidade_federal_de_minas_gerais:304dd372,Universidade Federal de Minas Gerais,,,Affiliation
+,,,,theme:cooperative_robots_for_welding_complex_geometry:cd0a549f,Cooperative Robots for Welding Complex Geometry,,,Theme
+,,,,theme:pc_controlled_master_slave_robot_welding_architecture:55b9afc7,PC-Controlled Master-Slave Robot Welding Architecture,,,Theme
+,,,,theme:best_welding_condition_requires_coordinated_torch_speed_and_part_posit:d97e8562,Best Welding Condition Requires Coordinated Torch Speed and Part Positioning,,,Theme
+,,,,keyword:robotics:d058025d,Robotics,,,Keyword
+,,,,keyword:cooperation:ca00e43f,cooperation,,,Keyword
+,,,,keyword:gmaw:25cbafdb,GMAW.,,,Keyword
+,,,,keyword:rob_otica:1fe05b7e,Rob´otica,,,Keyword
+,,,,keyword:coopera_c_ao:2cb8f46b,coopera¸c˜ao,,,Keyword
+"Este trabalho apresenta uma implementação prática, usando computação reconfigurável utilizando dispositivos móveis através de PDA, direcionando a aplicação a Robótica Móvel. Uma arquitetura hierárquica, distribuinda em níveis crescentes de complexidade e usando recursos de computação reconfigurável é empregadada, O hardware e software desenvolvidos são estruturados em blocos independentes, considerando uma aquitetetura de implementação aberta e permitindo a fácil expansão do sistema, melhor adaptando a plataforma às diversas tarefas a ela associada.",,,"This work presents a proposal of methodology procedures for implementation, using reconfigurable computing with PDA - Personal Digital Assistant devices applied to mobile robots problems. Using a hierarchical architecture, distributing the several control actions in growing levels of complexity and using resources of reconfigurable computing is possible to take into account the easiness of future modifications, updates and improvements in the robotic applications. A practical example is presenting using reconfigurable computing, of mobile robot control structure, where the developed software and hardware are structured in independent blocks, through open architecture implementation, allowing the easy expansion of the system, better adapting the platform to the tasks associated to it.",article:2004_1325,,2004/1325.pdf,Um Modelo para Projeto de Robos Moveis Usando PDA e Dispositivos de Rede sem Fio,Article
+,,yonezawa@fc.unesp.br,,author:w_m_yonezawa:1f1485cb,W. M. Yonezawa,,,Author
+,,rosario@fem.unicamp.br,,author:h_ferasoli_filho:350081ea,H. Ferasoli Filho,,,Author
+,,erig@cefetpr.br,,author:r_pegoraro:2c2b8557,R. Pegoraro,,,Author
+,,rosario@fem.unicamp.br,,author:j_m_rosario:a67a88ed,J. M. Rosario,,,Author
+,,erig@cefetpr.br,,author:c_r_erig_lima:b6bf5e69,C. R. Erig Lima,,,Author
+,Brazil,,,affiliation:universidade_estadual_de_campinas:a6e8c501,Universidade Estadual de Campinas,,,Affiliation
+,Brazil,,,affiliation:centro_federal_de_educacao_tecnologica_do_parana:77765c99,Centro Federal de Educacao Tecnologica do Parana,,,Affiliation
+,,,,theme:pda_and_wireless_network_model_for_mobile_robots:bde69122,PDA and Wireless Network Model for Mobile Robots,,,Theme
+,,,,theme:reconfigurable_open_architecture_for_robot_control:38962072,Reconfigurable Open Architecture for Robot Control,,,Theme
+,,,,theme:hierarchical_reconfigurable_blocks_ease_expansion_and_future_updates:ac558abe,Hierarchical Reconfigurable Blocks Ease Expansion and Future Updates,,,Theme
+,,,,keyword:sistemas_embarcados:82c8991d,Sistemas Embarcados,,,Keyword
+,,,,keyword:sistemas_reconfiguraveis:f7a1d327,Sistemas Reconfiguraveis,,,Keyword
+,,,,keyword:dispositivos_pda:e0569689,dispositivos PDA,,,Keyword
+,,,,keyword:redes_sem_fio:c125a26e,redes sem fio.,,,Keyword
+,,,,keyword:embedded_systems:5e5574db,Embedded Systems,,,Keyword
+,,,,keyword:reconfigurable_systems:ed72bd79,Reconfigurable Systems,,,Keyword
+,,,,keyword:pda_devices:f0079436,PDA devices,,,Keyword
+,,,,keyword:wireless_networks:53ecdd8b,Wireless networks.,,,Keyword
+"Neste artigo, um novo m´etodo n˜ao-linear para c´alculo da matriz fundamental ´e proposto. Este ´e baseado no m´etodo do paralaxe virtual. O m´etodo proposto constitui um problema simples de minimiza¸c˜ao, pois possui um espa¸co de busca bastante reduzido. Experimentos com imagens reais validam o novo m´etodo e mostram resultados semelhantes ao adquiridos com outros algoritmos n˜ao-lineares, mas com bem menos custo computacional.",,,"In this paper, a new nonlinear technique for fundamental matrix estimating is proposed. It is based on the virtual parallax algorithm. Beside this, the proposed method is a simple minimization problem because it has a quite reduced search space. Experiments in real images validate the new technique and they show that it has a good performance comparing to others nonlinear algorithms, but with lower computational cost.",article:2004_211,,2004/211.pdf,Um Novo Algoritmo Nao-Linear para Calculo da Matriz Fundamental,Article
+,,josealexandre@eeol.org,,author:jose_a_de_franca:4ea1c031,Jose A. de Franca,,,Author
+,,,,affiliation:departamento_de_engenharia_el_etrica:70e979be,∗Departamento de Engenharia El´etrica,,,Affiliation
+,Brazil,,,affiliation:universidade_estadual_de_londrina:88e1a84b,Universidade Estadual de Londrina,,,Affiliation
+,,,,affiliation:departamento_de_automa_c_ao_e_sistemas:59e05209,Departamento de Automa¸c˜ao e Sistemas,,,Affiliation
+,,,,theme:virtual_parallax_nonlinear_algorithm:8a185e7b,Virtual Parallax Nonlinear Algorithm,,,Theme
+,,,,theme:fundamental_matrix_estimation_in_stereo_vision:4b1758b2,Fundamental Matrix Estimation in Stereo Vision,,,Theme
+,,,,theme:reduced_search_space_lowers_computational_cost:334b6fae,Reduced Search Space Lowers Computational Cost,,,Theme
+,,,,keyword:epipolar_geometry:0b4809c8,Epipolar Geometry,,,Keyword
+,,,,keyword:stereovision:fd51df4c,Stereovision,,,Keyword
+,,,,keyword:fundamental_matrix:ecdd2ce7,Fundamental Matrix,,,Keyword
+,,,,keyword:virtual_parallax:6613d042,Virtual Parallax.,,,Keyword
+,,,,keyword:geometria_epipolar:94a68d64,Geometria Epipolar,,,Keyword
+,,,,keyword:vis_ao_est_ereo:2fa85a25,Vis˜ao Est´ereo,,,Keyword
+,,,,keyword:matriz_fundamental:dcf6d276,Matriz Fundamental,,,Keyword
+,,,,keyword:paralaxe_virtual:81bee041,Paralaxe Virtual.,,,Keyword
+´E mostrado como projetar uma familia de novos m´etodos iterativos lineares atrav´es de uma abor- dagem pela teoria de controle. Escolhas apropriadas de fun¸c˜oes de Liapunov resultam em controladores da familia PID com ganhos variantes no tempo.,,,"It is shown how to built a family of new iterative methods using a feedback control viewpoint together with appropriate choices of control Liapunov function, leading to a family of time varying PID controllers.",article:2004_212,,2004/212.pdf,Metodos Iterativos Lineares: Analise e Projeto Atraves de Ferramentas da Teoria de Controle,Article
+,,oumar@coep.ufrj.br,,author:oumar_dieng:ac76d7e9,Oumar Dieng,,,Author
+,,amit@nacad.ufrj.br,,author:amit_bhaya:b3f5ddac,Amit Bhaya,,,Author
+,Brazil,,,affiliation:universidade_federal_do_rio_de_janeiro:14407b58,Universidade Federal do Rio de Janeiro,,,Affiliation
+,,,,affiliation:coppe_programa_de_engenharia_el_etrica:bae96688,COPPE - Programa de Engenharia El´etrica,,,Affiliation
+,,,,theme:control_theory_design_of_linear_iterative_methods:d4e37071,Control-Theory Design of Linear Iterative Methods,,,Theme
+,,,,theme:control_lyapunov_function_for_iterative_methods:7bbefc76,Control Lyapunov Function for Iterative Methods,,,Theme
+,,,,theme:feedback_control_viewpoint_transforms_iteration_tuning_into_signal_reg:c19ff53c,Feedback Control Viewpoint Transforms Iteration Tuning into Signal Regulation,,,Theme
+,,,,keyword:fun_c_ao_de_liapunov:14c2e950,Fun¸c˜ao de Liapunov,,,Keyword
+,,,,keyword:m_etodo_iterativo:f81fc658,m´etodo iterativo,,,Keyword
+,,,,keyword:estabilidade:85d65f6e,estabilidade,,,Keyword
+,,,,keyword:controlador_pid:1c6a1fd4,controlador PID,,,Keyword
+,,,,keyword:gradiente_conjugado:888c6440,gradiente conjugado,,,Keyword
+,,,,keyword:convergencia:81f285ad,convergˆencia.,,,Keyword
+,,,,keyword:control_liapunov_function:0cc97f83,Control Liapunov function,,,Keyword
+,,,,keyword:iterative_methods:6790094e,iterative methods,,,Keyword
+,,,,keyword:stability:e70647c6,stability,,,Keyword
+,,,,keyword:pid_controller:df064fbc,PID controller,,,Keyword
+,,,,keyword:conjugate_gradient_algorithm:e8c39a9a,conjugate gradient algorithm,,,Keyword
+,,,,keyword:convergence:98bf2e34,convergence.,,,Keyword
+"Num cenário desregulamentado, as companhias de distribuição têm a liberdade de realizar contratos de compra de energia com qualquer produtor independente de energia, mesmo que estes estejam em outras áreas de controle. Neste artigo, o Controle Automático de Geração tradicional é modificado para levar em consideração a presença de contratos bilaterais no comportamento dinâmico da malha de controle. É introduzido o conceito da “matriz de participação das companhias de distribuição” para simulação desses contratos, e são feitas aplicações num sistema considerando quatro áreas de controle.",,,"In the deregulated structure, a distribution company has the freedom to have contract with any generation company of any control area. In this paper, the traditional AGC is modified to take into account the effect of bilateral contracts on the dynamics. The concept of distribution companies participation matrix to simulate these bilateral contracts is introduced and reflected in the four-area block diagram.",article:2004_213,,2004/213.pdf,Caracteristicas Operativas do Controle Automatico de Geracao em um Cenario Competitivo,Article
+,,fabri8676@yahoo.com.br,,author:david_f_fabri:942a02cc,David F. Fabri,,,Author
+,,ppaulo@iee.efei.br,,author:pedro_paulo_c_mendes:09746338,Pedro Paulo C. Mendes,,,Author
+,,claudio@iee.efei.br,,author:claudio_ferreira:92d8f217,Claudio Ferreira,,,Author
+,,prioste@iee.efei.br,,author:fernando_b_prioste:1dd5dc8f,Fernando B. Prioste,,,Author
+,Brazil,,,affiliation:universidade_federal_de_itajuba:5733525a,Universidade Federal de Itajuba,,,Affiliation
+,,,,theme:automatic_generation_control_in_a_competitive_scenario:109aad57,Automatic Generation Control in a Competitive Scenario,,,Theme
+,,,,theme:distribution_company_participation_matrix:e73dd46d,Distribution Company Participation Matrix,,,Theme
+,,,,theme:bilateral_contracts_require_modified_agc_dynamics:e84380b1,Bilateral Contracts Require Modified AGC Dynamics,,,Theme
+,,,,keyword:agc:da8165f1,AGC,,,Keyword
+,,,,keyword:automatic_generation_control:6ee14816,Automatic Generation Control,,,Keyword
+,,,,keyword:deregulation:ed38067e,Deregulation,,,Keyword
+,,,,keyword:bilateral_contracts:3a464b01,Bilateral Contracts,,,Keyword
+,,,,keyword:secondary_control:62b049f0,Secondary Control,,,Keyword
+,,,,keyword:contract_violation:53439dfc,Contract Violation.,,,Keyword
+,,,,keyword:cag:40ea68f2,CAG,,,Keyword
+,,,,keyword:controle_automatico_de_geracao:535262a3,Controle Automático de Geração,,,Keyword
+,,,,keyword:desregulamentacao:3810200f,Desregulamentação,,,Keyword
+,,,,keyword:contratos_bilaterais:695ce3e9,Contratos Bilaterais,,,Keyword
+,,,,keyword:controle_secundario:8bab293f,Controle Secundário,,,Keyword
+,,,,keyword:violacao_de_contratos:8f1466c6,Violação de Contratos.,,,Keyword
