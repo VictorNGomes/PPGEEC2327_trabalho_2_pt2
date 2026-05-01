@@ -1,4 +1,4 @@
-# Knowledge Graphs para Descoberta de Lacunas em Pesquisa Científica
+# Extração de Conhecimento e Análise de Grafos o Contexto de Geofísica
 
 **Tema:** Knowledge Graph
 **Data:** 2026-04-30
