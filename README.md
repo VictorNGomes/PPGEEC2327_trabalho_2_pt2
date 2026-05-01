@@ -8,8 +8,8 @@
 
 
 
-- **Victor Gomes** 
-- **José Augusto** 
+- **Victor do Nascimento Gomes** 
+- **José Augusto Agripino de Oliveira** 
 - **Breno Santos** 
 
 ---
