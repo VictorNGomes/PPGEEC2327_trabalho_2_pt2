@@ -12,8 +12,6 @@
 - **José Augusto** 
 - **Breno Santos** 
 
-_(Adicione ou remova linhas conforme o número de membros do grupo)_
-
 ---
 
 ## Índice (Navegação Rápida)
@@ -68,7 +66,7 @@ _(Adicione ou remova linhas conforme o número de membros do grupo)_
 **Questão Central:** Como **extrair insights técnicos** de grandes volumes de literatura científica usando Knowledge Graphs?
 
 **Contexto Específico:**
-- Corpus de 322 papers acadêmicos sobre inversão sísmica e deep learning
+- Corpus de 19 papers acadêmicos sobre inversão sísmica e deep learning
 - Leitura manual individual não revela **estruturas latentes** do campo
 - Perguntas de pesquisa que motivam a análise:
   - Qual é a **estrutura temática** deste campo de pesquisa?
@@ -106,7 +104,7 @@ _(Adicione ou remova linhas conforme o número de membros do grupo)_
 
 ```mermaid
 graph TD
-    A[322 PDFs de Papers] --> B[Graphify Extraction]
+    A[19 PDFs de Papers] --> B[Graphify Extraction]
     B --> C[Knowledge Graph]
     C --> D[322 nós, 393 edges, 24 comunidades]
     D --> E[Query 1: God Nodes]
@@ -122,7 +120,7 @@ graph TD
 ### Corpus Processado
 
 **Corpus Principal (Papers de Inversão Sísmica):**
-- **322 papers** acadêmicos em PDF
+- **19 papers** acadêmicos em PDF
 - **Domínio:** Seismic Inversion, Full Waveform Inversion (FWI), Physics-Informed Neural Networks (PINNs)
 - **Período:** Papers recentes (2019-2025)
 - **Tamanho:** ~0 palavras (fit em context window único, segundo graphify)
@@ -177,7 +175,7 @@ Este projeto demonstra **3 capacidades centrais de Knowledge Graphs**:
 
 **Query:** "Quais papers conectam métodos Bayesianos com Redes Neurais?"
 
-**Descoberta:** Apenas **3 papers em 322** fazem essa ponte:
+**Descoberta:** Apenas **3 papers em 19** fazem essa ponte:
 1. Hosseinzadeh et al. 2025
 2. Orozco et al. 2024 (ASPIRE + Diffusion Networks)
 3. U-Net (via Bayesian dropout)
@@ -295,7 +293,7 @@ CIGs → Conditional Diffusion Networks → ASPIRE → Bayesian UQ
 ```
 **Impacto:** Impossível validar se o corpus realmente cabe em context window ou se houve erro de contagem.
 
-**Workaround:** Verificamos manualmente que 322 PDFs foram processados analisando `manifest.json`.
+**Workaround:** Verificamos manualmente que 19 PDFs foram processados analisando `manifest.json`.
 
 #### 2. Hyperedges Vazias (#7-10)
 **Problema:** 4 de 10 hyperedges geradas não têm nós associados
@@ -395,7 +393,7 @@ graphify --export-neo4j graphify-out/graph.json
 
 **Trade-off:** Não exploramos capacidades de EdgeQuake para temporal analysis (que poderia ser útil para corpus CBA).
 
-### Decisão 2: Processar 322 Papers de Uma Vez
+### Decisão 2: Processar 19 Papers de Uma Vez
 
 **Escolha:** Corpus único grande vs. múltiplos corpus pequenos
 
@@ -473,7 +471,7 @@ Este repositório contém todos os artefatos gerados durante o trabalho conforme
 
 #### 🔧 Ambiente de Desenvolvimento
 - [venv/](venv/) - Python virtual environment com graphify v0.5.5 instalado
-- **Base de Dados:** 322 PDFs acadêmicos (não incluídos no repositório - diretório `papers/` está em .gitignore)
+- **Base de Dados:** 19 PDFs acadêmicos (não incluídos no repositório - diretório `papers/` está em .gitignore)
 
 ### Como Navegar os Artefatos
 
@@ -519,7 +517,7 @@ Este estudo de caso demonstrou como **Knowledge Graphs** permitem **extrair insi
 
 **Conhecimento Extraído:**
 - ✅ **Estrutura do campo:** 24 comunidades temáticas detectadas automaticamente (Bayesian, FWI, GANs, etc.)
-- ✅ **Gap crítico revelado:** Apenas 3 papers conectam métodos Bayesianos com Neural Networks em 322 papers
+- ✅ **Gap crítico revelado:** Apenas 3 papers conectam métodos Bayesianos com Neural Networks em 19 papers
 - ✅ **Papers pivotais identificados:** Hosseinzadeh et al. 2025 é único bridge entre 2 comunidades (betweenness 0.0464)
 - ✅ **Paradigma emergente detectado:** 3 abordagens independentes convergindo para "Unsupervised Physics-Guided Learning"
 
